@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/splash_screen" android:background="@color/fhiDark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:textAppearance="@style/appname_47p" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="273.0dip" android:text="@string/app_name" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0" app:srcCompat="@drawable/ic_smittestopp_text" />
+    <ImageView android:id="@id/app_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" app:layout_constraintBottom_toTopOf="@id/app_name" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:srcCompat="@drawable/ic_smittestopp" />
+    <ImageView android:id="@id/fhi_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="39.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:srcCompat="@drawable/fhilogo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

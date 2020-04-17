@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_settings" android:id="@id/navigation_settings" android:title="@string/settings" />
+    <item android:icon="@drawable/ic_location_tab" android:id="@id/navigation_home" android:title="@string/monitoring" />
+    <item android:icon="@drawable/ic_info" android:id="@id/navigation_info" android:title="@string/info" />
+</menu>

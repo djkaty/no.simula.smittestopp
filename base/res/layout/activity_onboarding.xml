@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <no.simula.corona.ui.widgets.NonSlidingViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/onboarding_bottom_margin" android:layout_above="@id/pageIndicator" />
+    <no.simula.corona.ui.widgets.DotPageIndicator android:id="@id/pageIndicator" android:layout_width="64.0dip" android:layout_height="16.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ProgressBar android:id="@id/spinner" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_centerInParent="true" android:indeterminateTint="@color/fhiDark" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+.class public Lcom/microsoft/azure/sdk/iot/deps/serializer/ErrorMessageParser$ErrorMessage;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/microsoft/azure/sdk/iot/deps/serializer/ErrorMessageParser;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "ErrorMessage"
+.end annotation
+
+
+# instance fields
+.field public exception:Ljava/lang/String;
+    .annotation runtime Le/c/c/v/c;
+        value = "ExceptionMessage"
+    .end annotation
+.end field
+
+.field public message:Ljava/lang/String;
+    .annotation runtime Le/c/c/v/c;
+        value = "Message"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

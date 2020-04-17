@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" configForSplit="" package="no.simula.smittestopp" split="config.xxhdpi">
+    <application android:hasCode="false">
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+</manifest>

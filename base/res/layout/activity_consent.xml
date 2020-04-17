@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/title" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/privacy_policy_header" android:layout_marginStart="105.0dip" android:layout_marginEnd="106.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textAppearance="@style/body" android:id="@id/privacy_policy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textView" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/privacy_policy">
+            <Button android:id="@id/denyConsent" android:background="@drawable/outlined_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="38.0dip" android:text="@string/close" android:layout_weight="1.0" android:layout_marginStart="12.0dip" android:layout_marginEnd="6.0dip" />
+            <Button android:id="@id/confirmConsent" android:background="@drawable/background_filled_dark_round" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="38.0dip" android:text="@string/agree" android:layout_weight="1.0" android:layout_marginStart="12.0dip" android:layout_marginEnd="6.0dip" style="@style/button_label" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</android.widget.ScrollView>

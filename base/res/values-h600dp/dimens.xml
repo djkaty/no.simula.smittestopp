@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="body_text_size">16.0sp</dimen>
+    <dimen name="button_lable_size">16.0sp</dimen>
+    <dimen name="button_padding_horizontal">55.0dip</dimen>
+    <dimen name="button_padding_vertical">12.0dip</dimen>
+    <dimen name="info_text_margin">16.0dip</dimen>
+    <dimen name="monitor_image">151.0dip</dimen>
+    <dimen name="monitor_image_bottom_text_margin">24.0dip</dimen>
+    <dimen name="monitor_image_top_margin_icon">24.0dip</dimen>
+    <dimen name="ob_privacy_image_top_margin">18.0dip</dimen>
+    <dimen name="on_boarding_drawable_size">180.0dip</dimen>
+    <dimen name="on_boarding_drawable_ver_margin">40.0dip</dimen>
+    <dimen name="on_boarding_top_margin">34.0dip</dimen>
+    <dimen name="onboarding_bottom_margin">22.0dip</dimen>
+    <dimen name="privacy_image_advice">44.0dip</dimen>
+    <dimen name="privacy_image_bin">44.0dip</dimen>
+    <dimen name="privacy_image_track">36.0dip</dimen>
+    <dimen name="title_text_size">34.0sp</dimen>
+</resources>

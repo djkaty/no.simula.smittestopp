@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/controlPanel" android:layout_width="wrap_content" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/locationPanel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Switch android:id="@id/gpsSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:contentDescription="@string/toggle_gps" android:layout_marginStart="44.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/authorisation" />
+        <TextView android:textAppearance="@style/header_14sp" android:id="@id/gps_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:text="@string/gps" android:fontFamily="@font/brandontext_regular" android:layout_marginStart="33.0dip" app:layout_constraintStart_toEndOf="@id/gpsSwitch" app:layout_constraintTop_toBottomOf="@id/authorisation" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bluetoothPanel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Switch android:id="@id/bluetoothSwith" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:contentDescription="@string/toggle_bluetooth" android:layout_marginStart="44.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/gpsSwitch" />
+        <TextView android:textAppearance="@style/header_14sp" android:id="@id/bluetooth_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="@string/bluetooth" android:fontFamily="@font/brandontext_regular" android:layout_marginStart="33.0dip" app:layout_constraintStart_toEndOf="@id/bluetoothSwith" app:layout_constraintTop_toBottomOf="@id/gps_text" />
+    </LinearLayout>
+</LinearLayout>

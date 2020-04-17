@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/mobile_navigation" app:startDestination="@id/navigation_home"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/settings" android:name="no.simula.corona.ui.main.SettingsFragment" android:id="@id/navigation_settings" />
+    <fragment android:label="@string/monitoring" android:name="no.simula.corona.ui.main.MainFragment" android:id="@id/navigation_home" />
+    <fragment android:label="@string/info" android:name="no.simula.corona.ui.main.InfoFragment" android:id="@id/navigation_info" />
+</navigation>
